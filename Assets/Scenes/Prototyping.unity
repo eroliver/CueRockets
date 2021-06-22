@@ -199,6 +199,7 @@ GameObject:
   - component: {fileID: 69902757}
   - component: {fileID: 69902756}
   - component: {fileID: 69902755}
+  - component: {fileID: 69902759}
   m_Layer: 0
   m_Name: CornerPocket (1)
   m_TagString: Untagged
@@ -295,6 +296,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 69902753}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &69902759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69902753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70bfca7723de2984db842aec40a819a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &84981293
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,6 +321,7 @@ GameObject:
   - component: {fileID: 84981297}
   - component: {fileID: 84981296}
   - component: {fileID: 84981295}
+  - component: {fileID: 84981299}
   m_Layer: 0
   m_Name: CornerPocket
   m_TagString: Untagged
@@ -404,6 +418,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 84981293}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &84981299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84981293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70bfca7723de2984db842aec40a819a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &335026327
 GameObject:
   m_ObjectHideFlags: 0
@@ -647,6 +673,7 @@ GameObject:
   - component: {fileID: 580979952}
   - component: {fileID: 580979951}
   - component: {fileID: 580979950}
+  - component: {fileID: 580979954}
   m_Layer: 0
   m_Name: CornerPocket (3)
   m_TagString: Untagged
@@ -743,6 +770,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 580979948}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &580979954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580979948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70bfca7723de2984db842aec40a819a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &584772360
 GameObject:
   m_ObjectHideFlags: 0
@@ -1468,6 +1507,7 @@ GameObject:
   - component: {fileID: 935743184}
   - component: {fileID: 935743183}
   - component: {fileID: 935743182}
+  - component: {fileID: 935743186}
   m_Layer: 0
   m_Name: CornerPocket (2)
   m_TagString: Untagged
@@ -1564,6 +1604,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 935743180}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &935743186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935743180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70bfca7723de2984db842aec40a819a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &955217941
 GameObject:
   m_ObjectHideFlags: 0
@@ -2339,6 +2391,7 @@ GameObject:
   - component: {fileID: 1217128824}
   - component: {fileID: 1217128823}
   - component: {fileID: 1217128822}
+  - component: {fileID: 1217128825}
   m_Layer: 0
   m_Name: SidePocket
   m_TagString: Untagged
@@ -2422,6 +2475,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1217128820}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1217128825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217128820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70bfca7723de2984db842aec40a819a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1241296865
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2491,6 +2556,7 @@ GameObject:
   - component: {fileID: 1246350435}
   - component: {fileID: 1246350434}
   - component: {fileID: 1246350433}
+  - component: {fileID: 1246350436}
   m_Layer: 0
   m_Name: SidePocket
   m_TagString: Untagged
@@ -2574,6 +2640,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1246350431}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1246350436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246350431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70bfca7723de2984db842aec40a819a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1337844884
 GameObject:
   m_ObjectHideFlags: 0
