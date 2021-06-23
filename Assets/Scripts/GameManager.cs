@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+//Singleton script responsible for firing off events that control game state; levels, score, quitting
 public class GameManager : MonoBehaviour
 {
     public static GameManager gameManager;
@@ -28,19 +30,13 @@ public class GameManager : MonoBehaviour
     public event Action onNextSceneEnter;
     public void NextSceneEnter()
     {
-        if (onNextSceneEnter != null)
-        {
-            onNextSceneEnter();
-        }
+        onNextSceneEnter?.Invoke();
     }
 
     public event Action onExitEnter;
     public void ExitEnter()
     {
-        if (onExitEnter != null)
-        {
-            onExitEnter();
-        }
+        onExitEnter?.Invoke();
     }
 
     private void Update()

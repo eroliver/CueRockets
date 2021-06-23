@@ -5,10 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: cf924dcac02305e4d8687e15dd8e72f0
   - enabled: 1
     path: Assets/Scenes/Prototyping.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Prototyping HighPower.unity
+    guid: fecacd871ce705841a86d4ac962d27b5
+  - enabled: 1
+    path: Assets/Scenes/Prototyping Ball Ammo.unity
+    guid: 04f04c585e9ebf94fa20fa5e6197735f
   m_configObjects: {}
