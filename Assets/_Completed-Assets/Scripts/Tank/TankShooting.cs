@@ -24,6 +24,12 @@ namespace Complete
 
         [SerializeField]
         private float launchForceMultiplier;       // used to adjust launch force in the editor
+        [SerializeField]
+        private Rigidbody ammoRB;
+        [SerializeField]
+        private float ammoForce;                    //set how fast the weapon ammo travels(this needs refactored)
+
+        private string shootWeapon;
 
         private void OnEnable()
         {
@@ -36,10 +42,15 @@ namespace Complete
         private void Start ()
         {
             // The fire axis is based on the player number.
-            m_FireButton = "Fire" + m_PlayerNumber;
+            m_FireButton = "Fire1Player" + m_PlayerNumber;
 
             // The rate that the launch force charges up is the range of possible forces by the max charge time.
             m_ChargeSpeed = (m_MaxLaunchForce - m_MinLaunchForce) / m_MaxChargeTime;
+
+            //the pool shot axis based on the player number.
+            shootWeapon = "Fire2Player" + m_PlayerNumber;
+
+            ammoForce = 50f;
         }
 
 
@@ -80,6 +91,11 @@ namespace Complete
                 // ... launch the shell.
                 Fire ();
             }
+
+            if (Input.GetButtonDown(shootWeapon))
+            {
+                ShootWeapon();
+            }
         }
 
 
@@ -101,6 +117,15 @@ namespace Complete
 
             // Reset the launch force.  This is a precaution in case of missing button events.
             m_CurrentLaunchForce = m_MinLaunchForce;
+        }
+
+        private void ShootWeapon()
+        {
+            //refactor this with pooling to increase performance***
+            Rigidbody ammoInstance = Instantiate(ammoRB, m_FireTransform.position, m_FireTransform.rotation);
+
+            //refactor to attach ammo atributes to the ammo used, ie. rockets fire slow, machine guns quickly
+            ammoInstance.velocity = m_FireTransform.forward * ammoForce;
         }
     }
 }
