@@ -39,6 +39,12 @@ public class GameManager : MonoBehaviour
         onExitEnter?.Invoke();
     }
 
+    public event Action onScoreGoal;
+    public void ScoreGoal(int teamNumber)
+    {
+        onScoreGoal?.Invoke();
+    }
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Alpha0))
@@ -50,4 +56,6 @@ public class GameManager : MonoBehaviour
             ExitEnter();
         }
     }
+
+    
 }

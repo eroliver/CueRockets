@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class Goal : MonoBehaviour
 {
+    public int goalNumber;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        //GameManager.gameManager.onScoreGoal += Score;
     }
 
     // Update is called once per frame
@@ -24,4 +26,9 @@ public class Goal : MonoBehaviour
             //add points to team score
         }
     }
+
+    //public void Score(int teamNumber)
+    //{
+    //    Debug.Log("team " + teamNumber + " has scored");
+    //  }
 }
